@@ -61,6 +61,9 @@
 
             <h4 class="m-0 mb-1">heading, font_size, color, html false</h4>
             <div class="heading-size-color-html-div mb-5"></div>
+
+            <h4 class="m-0 mb-1">모든 것 false</h4>
+            <div class="every-div mb-5"></div>
         </div>
     </div>
 
@@ -88,6 +91,18 @@
             color:false,
             html:false,
             image_alt:false
+        })
+        new_stone_editor('.heading-size-color-html-div',{
+            responsive:false,  // 모바일 반응형
+            heading:false, // 헤딩
+            font_size:false, // 폰트사이즈
+            color:false, // 폰트색, 배경색
+            font_style:false, // 굵게, 기울임, 밑줄, 취소선
+            list:false, // 리스트
+            align:false, // 정렬
+            attachment:false, // 첨부요소
+            image_alt, // 이미지 설명글
+            html:false // html 모드
         })
     </script>
 </body>
